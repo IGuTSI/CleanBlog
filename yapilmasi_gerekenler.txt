@@ -1,0 +1,36 @@
+First step create a new repository in git.hub
+and go to the CMD
+
+CMD
+First-step
+*
+echo "# CleanBlog" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/your git.hub nickname/CleanBlog.git
+git push -u origin main
+*
+
+and process completed.
+
+--NEXT 
+ctrl+shift+p and go to the prettier:Create
+
+--NEXT
+
+Terminal in VSCODE
+First step
+- npm init     * because we need package.json
+*and answer the questions*
+
+Second-Step
+npm install prettier -D --save-exact (same prettier version dowloand)
+
+Third-Step
+and go to the prettier file and use this:
+"semi": true (her bitişte noktali virgün kullanır.)
+"singleQuote": true,  (tek tırnak şekilde kullanılmasını ister)
+"trailingComma": "es5" (ayarının da es5 ŞEKLİNDE varsayılan şekilde olmasını istiyoruz.)
+

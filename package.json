@@ -1,0 +1,27 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "CleaBlog Blog App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IGuTSI/CleanBlog.git"
+  },
+  "keywords": [
+    "Blog",
+    "on",
+    "Page"
+  ],
+  "author": "Fatih Karakullukcu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IGuTSI/CleanBlog/issues"
+  },
+  "homepage": "https://github.com/IGuTSI/CleanBlog#readme",
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}
