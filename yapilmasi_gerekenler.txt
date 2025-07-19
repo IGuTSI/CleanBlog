@@ -1,4 +1,4 @@
-First step create a new repository in git.hub
+First, create a new repository on GitHub and open the terminal (CMD).
 and go to the CMD
 
 CMD
@@ -33,4 +33,53 @@ and go to the prettier file and use this:
 "semi": true (her bitişte noktali virgün kullanır.)
 "singleQuote": true,  (tek tırnak şekilde kullanılmasını ister)
 "trailingComma": "es5" (ayarının da es5 ŞEKLİNDE varsayılan şekilde olmasını istiyoruz.)
+
+Fourth-Step 
+Create .gitignore file in the CleanBlog folders with VSCODE and search gitignore in google. Join this page and write Node , select this and Load, later Copy all page and paste your .gitignore file on vscode
+
+***Why are we use gitignore ? 
+Because we need dont share private info. we dont need unnecessary info. we need trying to keep the storage area clean.
+
+Fifth-Step
+write Terminal 'git status'  (**we need save changes files)
+'git add .' (**We want it to add all the files to git.)
+
+and write           git commit -m "Workspace created" 
+and last-step       git push     (**send to conciliator.)
+
+
+
+
+PART-2
+
+dowloand
+npm i express --save
+
+and npm install --save-dev nodemon 
+
+and join package.json file and add new script in "start": "nodemon app.js"
+
+next-step 
+write app.js
+
+const express = require('express');
+
+const app = express();
+
+app.get('/', (req, res) => {
+
+  const photo = {
+    id: 1,
+    name: "Photo Name",
+    description: "Photo description"
+  }
+  res.send(photo)
+})
+
+const port = 3000;
+app.listen(port, () => {
+  console.log(`Sunucu ${port} portunda başlatıldı..`);
+});
+
+Afterwards, we can send our codes to the remote repo with the git push command.
 
